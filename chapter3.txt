@@ -10,10 +10,11 @@ how to push changes to github:
 
 create new branch and work with it:
 1. create new branch (git branch <branchname>)
-2. see the branches (git branch) (the one with * is the branch i am currently in)
+2. see the branches (git branch) (the one with * is the branch I am currently in)
 3.  switch to different branch (git checkout <branchname>) (branch name=branch to switch to)
 
 to merge changes from branch into main repository:
 1. move to main branch (git branch master)
 2. merge the branch (git merge <branch>) (branch=branch to merge into main [master])
-3. when pushing to github (after steps in second section above "hot to push...") make to to add to push command -u
+3. when pushing to github (after steps in second section above "hot to push...") make to add to push command -u
+4. i can make changes also in master branch, but they can't contradict changes made in other branch i want to merge. meaning, whichever files I change in the branch, I can't touch them in master.
