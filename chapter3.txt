@@ -2,8 +2,13 @@ create remote that connects bach to github repository:
 1. git remote add <name> <url> (name=name of repository in git [in general 'origin'], url=url to repopsitory in github [get from github])
 
 how to push changes to github:
-1. create files (chapter3.txt etc.)
+1. create files (touch <filename>) (chapter3.txt etc.)
 2. create git file (git init)
 3. add file to git (git add <file>) (file=. if adding all files)
 4. commit changes in files (git commit -m "name of change")
 5. push to github (git push origin <branch>)(-u after push if first time for this branch. branch=main if pushing main branch)
+
+create new branch and work with it:
+1. create new branch (git branch <branchname>)
+2. see the branches (git branch) (the one with * is the branch i am currently in)
+3.  switch to different branch (git checkout <branchname>) (branch name=branch to switch to)
