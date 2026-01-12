@@ -1,12 +1,12 @@
 create remote that connects bach to github repository:
 1. git remote add <name> <url> (name=name of repository in git [in general 'origin'], url=url to repopsitory in github [get from github])
+2. create git file (git init)
 
 how to push changes to github:
 1. create files (touch <filename>) (chapter3.txt etc.)
-2. create git file (git init)
-3. add file to git (git add <file>) (file=. if adding all files)
-4. commit changes in files (git commit -m "name of change")
-5. push to github (git push origin <branch>)(-u after push if first time for this branch. branch=main if pushing main branch)
+2. add file to git (git add <file>) (file=. if adding all files that were changed)
+3. commit changes in files (git commit -m "name of change")
+4. push to github (git push origin <branch>)(-u after push if first time for this branch. branch=main if pushing main branch)
 
 create new branch and work with it:
 1. create new branch (git branch <branchname>)
@@ -16,3 +16,4 @@ create new branch and work with it:
 to merge changes from branch into main repository:
 1. move to main branch (git branch master)
 2. merge the branch (git merge <branch>) (branch=branch to merge into main [master])
+3. when pushing to github (after steps in second section above "hot to push...") make to to add to push command -u
