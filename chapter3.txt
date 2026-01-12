@@ -12,3 +12,7 @@ create new branch and work with it:
 1. create new branch (git branch <branchname>)
 2. see the branches (git branch) (the one with * is the branch i am currently in)
 3.  switch to different branch (git checkout <branchname>) (branch name=branch to switch to)
+
+to merge changes from branch into main repository:
+1. move to main branch (git branch master)
+2. merge the branch (git merge <branch>) (branch=branch to merge into main [master])
